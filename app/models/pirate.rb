@@ -10,4 +10,9 @@ PIRATES = []
     @height = params[:height]
     PIRATES << self
   end
+
+def self.all 
+  PIRATES
+end
+  
 end
