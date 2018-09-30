@@ -11,7 +11,7 @@ SHIPS = []
     SHIPS << self
   end
 
-  def self.all 
+  def self.all
     SHIPS
   end
 
