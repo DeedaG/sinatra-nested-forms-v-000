@@ -5,7 +5,7 @@ module FormsLab
 
     get '/pirates' do
       "Welcome to the Nested Forms Lab!  let's navigate to the '/new'"
-      erb :index
+      erb :new
     end
 
     get '/pirates/new' do
