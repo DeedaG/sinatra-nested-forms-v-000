@@ -5,9 +5,9 @@ attr_reader :name, :type, :booty
 SHIPS = []
 
   def initialize(args)
-    @name =
-    @type =
-    @booty =
+    @name = args[:name]
+    @type = args[:type]
+    @booty = args[:booty]
     SHIPS << self
   end
 end
