@@ -31,10 +31,5 @@ module FormsLab
       redirect to "/pirates/#{pirate.id}"
       #please go to localhost:9393/pirates/this pirates id
     end
-
-    post '/pirates' do
-
-    end
-
   end
 end
