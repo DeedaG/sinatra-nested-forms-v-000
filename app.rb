@@ -5,6 +5,7 @@ module FormsLab
 
     get '/' do
       "Welcome to the Nested Forms Lab! Let's navigate to the '/new'"
+      erb :root
     end
 
   end
