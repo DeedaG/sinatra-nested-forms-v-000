@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/pirates' do
-      
+      "Welcome to the Nested Forms Lab!  let's navigate to the '/new'"
       erb :index
     end
 
