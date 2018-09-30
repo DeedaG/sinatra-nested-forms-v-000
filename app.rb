@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/pirates' do
-      
+      @pirate = Pirate.all
       erb :index
     end
 
