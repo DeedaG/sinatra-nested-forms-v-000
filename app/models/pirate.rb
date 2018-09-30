@@ -11,8 +11,8 @@ PIRATES = []
     PIRATES << self
   end
 
-def self.all
-  PIRATES
-end
+  def self.all
+    PIRATES
+  end
 
 end
