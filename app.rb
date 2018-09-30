@@ -6,17 +6,17 @@ module FormsLab
     get '/' do
       @pirates = Pirate.all
 
-      erb :pirates/index
+      erb :'pirates/index'
     end
 
     get '/pirates/new' do
-      erb :pirates/new
+      erb :'pirates/new'
     end
 
     get '/pirates/:id' do
       @pirate = Pirate.find(params[:id])
 
-      erb :pirates/show
+      erb :'pirates/show'
     end
 
 
