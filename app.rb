@@ -13,6 +13,11 @@ module FormsLab
 
     post '/pirates' do
 
+
+      name
+      type
+      booty
+
     end
 
   end
