@@ -4,10 +4,10 @@ attr_reader :name, :type, :booty
 
 SHIPS = []
 
-  def initialize(args)
-    @name = args[:name]
-    @type = args[:type]
-    @booty = args[:booty]
+  def initialize(name, type, booty)
+    @name = name
+    @type = type
+    @booty = booty
     SHIPS << self
   end
 
